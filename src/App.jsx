@@ -1,10 +1,18 @@
+import { Routes, Route } from "react-router-dom";
+
 import "./App.css";
+
+import Home from "./pages/Home";
+import NotFound from "./pages/404";
+import Task1 from "./pages/Task1";
 
 function App() {
   return (
-    <>
-      <h1 className="text-center font-bold">Hello</h1>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/task1" element={<Task1 />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
 
