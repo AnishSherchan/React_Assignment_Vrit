@@ -22,8 +22,6 @@ const Header = () => {
           })}
         </nav>
       </div>
-
-      {/* <!-- Add CTAs --> */}
     </header>
   );
 };

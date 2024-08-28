@@ -6,7 +6,7 @@ const SearchFilter = ({ data, render }) => {
 
   // Filter the data based on the search query
   const filteredData = data?.filter((item) =>
-    item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    item.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
