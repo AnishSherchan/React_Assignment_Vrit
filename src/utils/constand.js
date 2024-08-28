@@ -14,3 +14,4 @@ export const NAVIGATION = [
 ];
 
 export const STORE_API = "https://fakestoreapi.com/";
+export const USER_API = "https://jsonplaceholder.typicode.com/users";
